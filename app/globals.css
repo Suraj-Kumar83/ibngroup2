@@ -1,0 +1,132 @@
+@import "tailwindcss";
+
+/* =========================
+   ROOT THEME
+========================= */
+:root {
+  --primary: #ffffff;
+  --secondary: #f8fafc;
+  --accent: #0ea5e9;
+}
+
+/* =========================
+   BODY (PURE WHITE UI)
+========================= */
+body {
+  background: #ffffff;
+  color: #0f172a;
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+/* =========================
+   HEADINGS
+========================= */
+
+h1{
+  font-family: var(--font-heading);
+  letter-spacing: -0.02em;
+  color: #dadde3;
+}
+
+
+h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  letter-spacing: -0.02em;
+  color: #0f172a;
+}
+
+/* =========================
+   TEXT HELPERS
+========================= */
+.text-muted {
+  color: #64748b;
+}
+
+.text-light {
+  color: #94a3b8;
+}
+
+/* =========================
+   GRID BACKGROUND (VERY LIGHT)
+========================= */
+.bg-grid {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.03) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+.btn-primary {
+  background: #0ea5e9;
+  color: #ffffff;
+  border-radius: 999px;
+  padding: 10px 22px;
+  font-weight: 600;
+  box-shadow: 0 6px 20px rgba(14, 165, 233, 0.2);
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: #0284c7;
+  transform: translateY(-2px);
+}
+
+/* Secondary Button */
+.btn-outline {
+  border: 1px solid #0ea5e9;
+  color: #0ea5e9;
+  border-radius: 999px;
+  padding: 10px 22px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+  background: #0ea5e9;
+  color: #ffffff;
+}
+
+/* =========================
+   CARD STYLE (CLEAN)
+========================= */
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+/* =========================
+   SOFT SHADOWS
+========================= */
+.soft-shadow {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* =========================
+   SECTION BACKGROUND
+========================= */
+.section-light {
+  background: #f8fafc;
+}
+
+/* =========================
+   SECTION DIVIDER
+========================= */
+.section-divider {
+  border-top: 1px solid rgba(14, 165, 233, 0.2);
+  margin: 60px 0;
+}
+
+/* =========================
+   SMOOTH UI
+========================= */
+* {
+  transition: all 0.2s ease;
+}
