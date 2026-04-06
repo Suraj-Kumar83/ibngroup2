@@ -59,11 +59,10 @@ export default function Results() {
                     fill
                     className="object-cover"
                   />
-                  <div className="absolute bottom-2 left-2 text-xs bg-black/70 px-2 py-1 rounded">
+                  <div className="absolute bottom-2 left-2 text-xs bg-cyan-400 px-2 py-1 rounded">
                     Before
                   </div>
                 </div>
-
                 {/* AFTER */}
                 <div className="relative h-[180px] sm:h-[200px]">
                   <Image
@@ -90,17 +89,17 @@ export default function Results() {
           ))}
 
         </div>
-{/* CTA */}
-<div className="mt-12">
-  <Link href="/result">
-    <button className="px-6 py-3 cursor-pointer rounded-full bg-cyan-400 text-slate-900 font-semibold shadow-[0_0_20px_rgba(0,209,255,0.6)] hover:scale-105 transition">
-      View Detailed Results
-    </button>
-  </Link>
-</div>
+        {/* CTA */}
+        <div className="mt-12">
+          <Link href="/result">
+            <button className="px-6 py-3 cursor-pointer rounded-full bg-cyan-400 text-slate-900 font-semibold shadow-[0_0_20px_rgba(0,209,255,0.6)] hover:scale-105 transition">
+              View Detailed Results
+            </button>
+          </Link>
+        </div>
       </div>
 
-      
+
     </section>
   );
 }

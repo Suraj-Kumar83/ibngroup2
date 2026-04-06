@@ -10,10 +10,11 @@ export default function Home() {
   return (
     <main>
       <Hero/>
+       <Products/>
       <About/>
       <WhatIsNPWT/>
       <KeyBenefits/>
-      <Products/>
+     
       <Indications/>
       <Results/>
     </main>

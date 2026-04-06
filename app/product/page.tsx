@@ -49,10 +49,10 @@ export default function AboutPage() {
       </Link>
 
       <Link
-        href="/product"
+        href="/about"
         className="px-6 py-3 rounded-full border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black transition"
       >
-        Explore Products
+        Know More About Us
       </Link>
 
     </div>
